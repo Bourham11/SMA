@@ -1,0 +1,2 @@
+# SMA
+Salon Management App
