@@ -2,7 +2,7 @@
 
 namespace SMA.Core.Entities
 {
-    public class ItemCart : ICart, IItemCart
+    public class ItemCart : IItemCart
     {
         public IOrder Order { get; set; }
         public IItem Item { get; set; }

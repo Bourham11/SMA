@@ -2,7 +2,7 @@
 
 namespace SMA.Core.Base
 {
-    public interface ICustomer
+    public interface ICustomer : IPerson
     {
         DateTime AppointmentDate { get; set; }
         string CustomerType { get; set; }

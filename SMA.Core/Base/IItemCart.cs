@@ -1,6 +1,6 @@
 ﻿namespace SMA.Core.Base
 {
-    public interface IItemCart
+    public interface IItemCart : ICart
     {
         IItem Item { get; set; }
         int Qty { get; set; }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SMA.Core.Base
 {
-   public interface IEmployee
+   public interface IEmployee : IPerson
     {
          decimal BasicSalary { get; set; }
          bool HasLoan { get; set; }

@@ -2,7 +2,7 @@
 
 namespace SMA.Core.Entities
 {
-    public class Manager : IPerson
+    public class Manager : IManager
     {
         public int Id { get ; set ; }
         public string Name {get; set; }

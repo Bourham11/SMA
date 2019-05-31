@@ -1,11 +1,9 @@
 ﻿using SMA.Core.Base;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SMA.Core.Entities
 {
-    public class Vendor : IPerson, IVendor
+    public class Vendor :  IVendor
     {
         public int Id { get; set; }
         public string Name { get; set; }

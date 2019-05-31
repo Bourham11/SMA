@@ -3,7 +3,7 @@ using System;
 
 namespace SMA.Core.Entities
 {
-    public class Employee : IPerson,IEmployee
+    public class Employee : IEmployee
     {
         public int Id { get; set; }
         public string Name { get; set; }
