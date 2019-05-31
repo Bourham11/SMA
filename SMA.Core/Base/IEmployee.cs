@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SMA.Core.Base
 {
-   public interface IEmployee : IPerson
+    public interface IEmployee : IPerson
     {
          decimal BasicSalary { get; set; }
          bool HasLoan { get; set; }

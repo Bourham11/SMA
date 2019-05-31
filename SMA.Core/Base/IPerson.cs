@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SMA.Core.Base
+﻿namespace SMA.Core.Base
 {
-   public interface IPerson
+    public interface IPerson
     {
          int Id { get; set; }
          string Name { get; set; }
